@@ -29,7 +29,7 @@ def start_forwarding(app: Client):
 
             # Send each Gofile link in a separate post
             for link in gofile_links:
-                formatted_text = f"/l {link}\n<b>Tag:</b> <code>@Mr_official_300</code> <code>2142536515</code>"
+                formatted_text = f"/l {link}\n<b>Tag:</b> <code>@zsbhere</code> <code>1568895149</code>"
                 await client.send_message(config.DEST_CHAT_ID, formatted_text, parse_mode=ParseMode.HTML)
 
     print("Forwarding setup complete!")
