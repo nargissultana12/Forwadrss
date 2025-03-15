@@ -1,0 +1,27 @@
+{
+  "name": "Forwardrss",
+  "description": "Telegram Forward Bot",
+  "repository": "https://github.com/nargissultana12/Forwadrss",
+  "keywords": ["python", "flask", "telegram"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-1X"
+    }
+  },
+  "addons": [],
+  "env": {
+    "APP_ENV": {
+      "description": "Application environment",
+      "value": "production"
+    }
+  },
+  "scripts": {
+    "postdeploy": "python main.py"
+  }
+}
