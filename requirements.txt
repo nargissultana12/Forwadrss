@@ -2,3 +2,4 @@ git+https://github.com/xkunal01/pyrofork-old
 tgcrypto
 flask
 gunicorn
+python-telegram-bot
