@@ -1,3 +1,4 @@
 git+https://github.com/xkunal01/pyrofork-old
 tgcrypto
+Flask==2.2.5
 python-telegram-bot
